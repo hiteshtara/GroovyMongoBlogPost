@@ -17,8 +17,8 @@ public class SimpleSearcher {
     
     public static void main(String[] args) throws Exception {
         
-        File indexDir = new File("c:/index/");
-        String query = "lucene";
+    	File indexDir = new File("c:/index/");
+        String query = "INITIAL_VERSION";
         int hits = 100;
         
         SimpleSearcher searcher = new SimpleSearcher();
