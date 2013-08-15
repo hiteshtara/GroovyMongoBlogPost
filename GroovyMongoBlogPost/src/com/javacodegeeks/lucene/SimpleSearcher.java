@@ -18,7 +18,7 @@ public class SimpleSearcher {
     public static void main(String[] args) throws Exception {
         
     	File indexDir = new File("c:/index/");
-        String query = "INITIAL_VERSION";
+        String query = "FELLOWSHIP_OSP_ADMIN";
         int hits = 100;
         
         SimpleSearcher searcher = new SimpleSearcher();
